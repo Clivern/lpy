@@ -10,3 +10,5 @@ name = "Ada"
 n = n + 1
 print(n, name)
 print(type(n).__name__, type(name).__name__)
+
+# Rebinding does not mutate the old object.
