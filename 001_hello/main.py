@@ -8,3 +8,5 @@
 print("Hello, Python")
 print("hello on stderr", file=__import__("sys").stderr)
 print("Hello, Python")
+
+# stderr is for diagnostics, stdout is for the result.
