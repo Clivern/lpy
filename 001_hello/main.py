@@ -7,3 +7,4 @@
 
 print("Hello, Python")
 print("hello on stderr", file=__import__("sys").stderr)
+print("Hello, Python")
