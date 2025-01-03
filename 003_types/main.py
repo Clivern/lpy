@@ -8,3 +8,4 @@
 values = [1, 1.5, True, "hi", b"raw", [1], (1,), {1}, {"k": 1}]
 for v in values:
     print(type(v).__name__, v)
+print([type(v).__name__ for v in values])
