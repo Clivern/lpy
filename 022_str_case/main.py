@@ -10,3 +10,4 @@ s = "Ada lovelace"
 print(s.upper(), s.lower())
 print(s.title(), s.capitalize(), s.swapcase())
 print("Straße".lower(), "Straße".casefold())
+print("ß".casefold())
