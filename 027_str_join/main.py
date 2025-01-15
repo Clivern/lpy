@@ -12,3 +12,4 @@ try:
     ",".join([1, 2])
 except TypeError as e:
     print(type(e).__name__)
+print("".join(["py", "thon"]))
