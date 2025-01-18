@@ -11,3 +11,5 @@ grid = [row, row]
 grid[0][0] = 1
 print(grid)
 print([[0] * 3 for _ in range(2)])
+
+# Each row must be a new list, not a repeated reference.
