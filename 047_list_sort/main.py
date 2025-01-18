@@ -11,3 +11,4 @@ ys = [3, 1, 2]
 print(sorted(ys), ys)
 xs.sort(reverse=True)
 print(xs)
+print(sorted([3, 1, 2], reverse=True))
