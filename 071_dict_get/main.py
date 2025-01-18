@@ -11,3 +11,4 @@ try:
     d["city"]
 except KeyError as e:
     print(type(e).__name__, e)
+print({"n": 1}.get("m", 0))
