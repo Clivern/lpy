@@ -14,3 +14,4 @@ def greet(name):
 print(add(2, 3))
 greet("Ada")
 print(greet("Alan"))
+print(add(10, 20))
