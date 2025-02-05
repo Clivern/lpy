@@ -12,3 +12,4 @@ p = Point()
 p.x = 3
 p.y = 4
 print(p.x, p.y, type(p).__name__)
+print(p.__dict__)
