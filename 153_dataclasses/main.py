@@ -15,3 +15,4 @@ class User:
 a = User("Ada", 1)
 b = User("Ada", 1)
 print(a, a == b, a.name)
+print(a.name, a.id)
