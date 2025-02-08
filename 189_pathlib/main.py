@@ -9,3 +9,4 @@ from pathlib import Path
 p = Path.cwd() / "README.md"
 print(p.name, p.suffix, p.exists())
 print(Path("a/b/c.py").parts)
+print(Path.cwd().name)
