@@ -10,3 +10,4 @@ data = {"name": "Ada", "year": 1815, "ok": True}
 s = json.dumps(data)
 print(s)
 print(json.loads(s)["year"])
+print(json.dumps(data, indent=2))
