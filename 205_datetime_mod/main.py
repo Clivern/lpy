@@ -9,3 +9,4 @@ from datetime import datetime, timezone
 now = datetime.now(timezone.utc)
 print(now.year, now.month, now.tzinfo)
 print(datetime(2025, 1, 15, 12, 0).isoformat())
+print(now.strftime('%A'))
