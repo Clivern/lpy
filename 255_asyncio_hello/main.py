@@ -10,3 +10,10 @@ async def main():
     await asyncio.sleep(0)
     return "ok"
 print(asyncio.run(main()))
+
+async def twice():
+    await asyncio.sleep(0)
+    await asyncio.sleep(0)
+    return "ok"
+
+print(asyncio.run(twice()))
