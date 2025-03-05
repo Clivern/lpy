@@ -9,3 +9,4 @@ import re
 print(re.search(r"\d+", "id=42").group())
 print(re.findall(r"[A-Z][a-z]+", "Ada Alan"))
 print(bool(re.match(r"Ada", "Ada Lovelace")))
+print(re.findall(r"\d+", "a1 b23"))
