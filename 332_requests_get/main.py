@@ -11,3 +11,5 @@ try:
     print(r.status_code, "text/html" in r.headers.get("content-type", ""))
 except requests.RequestException as e:
     print(type(e).__name__)
+
+# Always pass timeout= on real requests.
