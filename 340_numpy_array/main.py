@@ -9,3 +9,4 @@ import numpy as np
 a = np.array([1, 2, 3], dtype=np.int64)
 print(a.shape, a.dtype, a.ndim)
 print(np.zeros((2, 3)), np.arange(4))
+print(a.dtype)
