@@ -14,3 +14,4 @@ def health():
     return {"ok": True}
 
 print(TestClient(app).get("/health").json())
+print(TestClient(app).get('/health').status_code)
