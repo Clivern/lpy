@@ -14,3 +14,4 @@ def index():
 
 c = app.test_client()
 print(c.get("/").data.decode(), c.get("/").status_code)
+print(c.get('/').status_code)
