@@ -11,3 +11,4 @@ class User(BaseModel):
     year: int
 u = User(name="Ada", year="1815")
 print(u.year, u.model_dump())
+print(list(u.model_fields))
