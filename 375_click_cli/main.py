@@ -12,3 +12,4 @@ from click.testing import CliRunner
 def hello(name):
     click.echo(f"hi {name}")
 print(CliRunner().invoke(hello, ["--name", "Ada"]).output.strip())
+print(CliRunner().invoke(hello, []).output.strip())
