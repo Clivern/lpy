@@ -12,3 +12,4 @@ with engine.connect() as con:
     con.execute(text("insert into t (n) values (:n)"), {"n": 3})
     con.commit()
     print(con.execute(text("select n from t")).scalar_one())
+print(engine.dialect.name)
