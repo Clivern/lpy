@@ -9,3 +9,4 @@ from packaging.version import Version
 from packaging.specifiers import SpecifierSet
 print(Version("1.2.3") < Version("1.10.0"))
 print(Version("1.3") in SpecifierSet(">=1.2,<2"))
+print(Version("1.0.0") < Version("1.0.1"))
