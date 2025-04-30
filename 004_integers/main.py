@@ -1,8 +1,6 @@
 # 004. Integers
 #
-# int is arbitrary precision. // is floor division. % is remainder. ** is power. 0b, 0o,
-# 0x write binary, octal, and hex. int(s, base) parses a string. bit_length, bit_count,
-# to_bytes, and from_bytes talk bits. as_integer_ratio is (n, 1).
+# int is arbitrary precision. Arithmetic, bases, bit methods, and to_bytes live here.
 #
 # Run: python 004_integers/main.py
 

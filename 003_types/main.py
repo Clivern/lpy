@@ -1,7 +1,7 @@
 # 003. Built-in types
 #
 # int, float, bool, None, str, bytes, list, tuple, set, and dict cover most day-one data.
-# Everything is an object. Later lessons go deep on each type; this file is the tour.
+# Everything is an object.
 #
 # Run: python 003_types/main.py
 

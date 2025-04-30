@@ -1,7 +1,7 @@
 # 002. Variables and bindings
 #
 # A name is bound to an object. There is no separate declaration. Later assignment rebinds
-# the name. type() reports the object's type.
+# the name.
 #
 # Run: python 002_variables/main.py
 
